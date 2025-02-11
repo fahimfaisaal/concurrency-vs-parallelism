@@ -10,11 +10,11 @@ import (
 )
 
 func loop(label string) {
-	// fmt.Println("Start", label)
+	fmt.Println("Start", label)
 	for i := 0; i < 1e11; i++ {
 		// Do nothing
 	}
-	// fmt.Println("End", label)
+	fmt.Println("End", label)
 }
 
 // (TASKS / CPUS) * SINGLE_THREAD_TIME = PROCESS_TIME
